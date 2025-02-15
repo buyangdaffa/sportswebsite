@@ -54,9 +54,7 @@ const LandingPage = () => {
 
       {/* Main Content */}
       <main className="flex-1">
-        <div className="min-h-screen bg-[url('/images/leah-hetteberg-Q-Qd44h6DZU-unsplash.jpg')] bg-cover bg-center">
-
-        </div>
+        <div className="min-h-screen bg-[url('/images/leah-hetteberg-Q-Qd44h6DZU-unsplash.jpg')] bg-cover bg-center"></div>
 
         <div className="min-h-screen bg-[#DDDDDD] bg-cover bg-center">
           <div className="text-4xl pl-10 pt-10 text-[#242024] font-bold font-bebas mb-2">Upcoming Matches</div>
