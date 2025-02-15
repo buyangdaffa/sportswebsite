@@ -19,7 +19,7 @@ const StyledWrapper = styled.div`
     width: 200px;
     height: 300px;
     border-radius: 14px;
-    z-index: 1111;
+    z-index: 49;
     overflow: hidden;
     display: flex;
     flex-direction: column;
