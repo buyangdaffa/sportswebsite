@@ -26,17 +26,15 @@ const LandingPage = () => {
     { id: 18, title: "vsUTRECHT", coverImage: "/images/vsUTRECHT.png", details: "" },
   ];
 
-  const [currentIndex, setCurrentIndex] = useState(0); // Track the starting index for 5 matches
+  const [currentIndex, setCurrentIndex] = useState(0);
 
   const handleNext = () => {
-    // Move to the next set of 5 matches, if possible
     setCurrentIndex((prevIndex) =>
       prevIndex + 5 < matches.length ? prevIndex + 5 : 0
     );
   };
 
   const handlePrev = () => {
-    // Move to the previous set of 5 matches, if possible
     setCurrentIndex((prevIndex) =>
       prevIndex - 5 >= 0 ? prevIndex - 5 : matches.length - (matches.length % 5)
     );
@@ -44,9 +42,6 @@ const LandingPage = () => {
 
   return (
     <>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dokdo&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"></link>
     <div className="min-h-screen flex flex-col bg-gradient-to-b from-sky-100 to-white">
       {/* Header */}
       <Header />
@@ -72,13 +67,13 @@ const LandingPage = () => {
           <div className="flex justify-center gap-4 mt-6">
             <button
               onClick={handlePrev}
-              className="px-4 bg-gray-800 text-white rounded-lg"
+              className="px-4 bg-gray-800 text-white rounded-lg font-bebas"
             >
               Previous
             </button>
             <button
               onClick={handleNext}
-              className="px-4 py-2 bg-gray-800 text-white rounded-lg"
+              className="px-4 py-2 bg-gray-800 text-white rounded-lg font-bebas"
             >
               Next
             </button>
@@ -89,7 +84,7 @@ const LandingPage = () => {
       {/* Footer */}
       <footer className="py-8 px-4 bg-[#242024]">
         <div className="max-w-8xl mx-auto">
-          <h2 className="text-xl text-[#DDDDDD] mb-2">© MuhammadFajrinBuyangDaffa 2025</h2>
+          <h2 className="text-xl text-[#DDDDDD] mb-2 font-bebas">© MuhammadFajrinBuyangDaffa 2025</h2>
         </div>
       </footer>
     </div></>
