@@ -31,7 +31,7 @@ const StyledWrapper = styled.div`
         width: 45px;
         height: 45px;
         border: none;
-        background-color: #313638;
+        background-color: #F3F4F5;
         transition: 0.3s;
         cursor: pointer;
         display: flex;
@@ -43,24 +43,41 @@ const StyledWrapper = styled.div`
     .icon {
         width: 25px;
         height: 25px;
-        fill: #fff;
+        fill: #BF0000;
     }
 
     .container button:nth-child(1):hover {
         background-color: #2753a7;
     }
 
+    .container button:nth-child(1):hover .icon {
+        fill: white;
+    }
+
     .container button:nth-child(2):hover {
         background-color: #cd242b;
+    }
+
+    .container button:nth-child(2):hover .icon {
+        fill: white;
     }
 
     .container button:nth-child(3):hover {
         background-color: #55acee;
     }
 
+    .container button:nth-child(3):hover .icon {
+        fill: white;
+    }
+
     .container button:nth-child(4):hover {
         background-color: #0274b3;
     }
+
+    .container button:nth-child(4):hover .icon {
+        fill: white;
+    }
+
 
     .title {
         color: gray;
