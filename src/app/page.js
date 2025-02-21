@@ -4,7 +4,7 @@ import MatchCard from './components/MatchCard'; // Import the MatchCard componen
 import Link from 'next/link';
 import Header from './components/Header';
 
-const LandingPage = () => {
+const Page = () => {
   const matches = [
     { id: 1, title: "vsFEYENOORD", coverImage: "/images/vsFEYENOORD.png", details: "" },
     { id: 2, title: "vsAJAX", coverImage: "/images/vsAJAX.png", details: "" },
@@ -91,4 +91,4 @@ const LandingPage = () => {
   );
 };
 
-export default LandingPage;
+export default Page;

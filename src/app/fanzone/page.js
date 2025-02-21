@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import Header from '../components/Header';
 
-const FanZone = () => {
+const Page = () => {
   return (
     <div className="min-h-screen flex flex-col bg-gradient-to-b from-sky-100 to-white">
       <Header />
@@ -23,4 +23,4 @@ const FanZone = () => {
   );
 };
 
-export default FanZone;
+export default Page;

@@ -1,4 +1,4 @@
-// components/Header.js
+'use client';
 import React from 'react';
 import Link from 'next/link';
 import SocialMedia from './SocialMedia';
@@ -21,13 +21,13 @@ const Header = () => {
 
             {/* Second Line */}
             <div className="flex gap-8 justify-center">
-              <Link href="/about" className="text-2xl font-bebas py-3 font-semibold text-[#F3F4F5]">
+              <Link href="/about" className="text-2xl font-bebas py-3 font-semibold text-[#F3F4F5] hover:underline">
                 About
               </Link>
-              <Link href="/team" className="text-2xl font-bebas py-3 font-semibold text-[#F3F4F5]">
+              <Link href="/team" className="text-2xl font-bebas py-3 font-semibold text-[#F3F4F5] hover:underline">
                 Team
               </Link>
-              <Link href="/matches" className="text-2xl font-bebas py-3 font-semibold text-[#F3F4F5]">
+              <Link href="/matches" className="text-2xl font-bebas py-3 font-semibold text-[#F3F4F5] hover:underline">
                 Matches
               </Link>
             </div>
@@ -44,8 +44,8 @@ const Header = () => {
           <nav className="flex flex-col">
             {/* First Line */}
             <div className="flex gap-8 justify-center">
-              <Link href="#signin" className="text-2xl font-bebas py-3 font-semibold text-[#F3F4F5] flex items-center">
-                <img src="/images/log-in.svg" alt="Log In" className="w-6 h-6 mr-2" />
+              <Link href="#signin" className="text-2xl font-bebas py-3 font-semibold text-[#F3F4F5] flex items-center hover:underline">
+                <img src="/images/login.png" alt="Log In" className="w-6 h-6 mr-2" />
                 Sign In
               </Link>
             </div>
@@ -55,13 +55,13 @@ const Header = () => {
 
             {/* Second Line */}
             <div className="flex gap-8 justify-center">
-              <Link href="/media" className="text-2xl font-bebas py-3 font-semibold text-[#F3F4F5]">
+              <Link href="/media" className="text-2xl font-bebas py-3 font-semibold text-[#F3F4F5] hover:underline">
                 Media
               </Link>
-              <Link href="#news" className="text-2xl font-bebas py-3 font-semibold text-[#F3F4F5]">
+              <Link href="#news" className="text-2xl font-bebas py-3 font-semibold text-[#F3F4F5] hover:underline">
                 News
               </Link>
-              <Link href="#fanzone" className="text-2xl font-bebas py-3 font-semibold text-[#F3F4F5]">
+              <Link href="#fanzone" className="text-2xl font-bebas py-3 font-semibold text-[#F3F4F5] hover:underline">
                 Fan Zone
               </Link>
             </div>
