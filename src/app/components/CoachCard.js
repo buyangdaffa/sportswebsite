@@ -26,10 +26,10 @@ const StyledWrapper = styled.div`
     width: 200px; 
     height: 300px;
     margin: auto;
-    background-color: #F3F4F5;
+    background-color:rgb(255, 255, 255);
     text-align: center;
     border-radius: 4rem;
-    border: 2px solid #fff;
+    border: 2px solid #000000;
     position: relative;
     overflow: hidden;
   }
