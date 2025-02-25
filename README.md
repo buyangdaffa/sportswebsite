@@ -1,36 +1,20 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Garuda Nusantara Fantasy Football Club
 
-## Getting Started
+Welcome to the official website of **Garuda Nusantara**, a fantasy football club in *Football Manager*! The club competes in the **Eredivisie**, featuring an all-Indonesian squad, with its **reserves team** playing in the **Eerste Divisie** and its **U18 team** competing in the **U18 Eredivisie**.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Squad Overview**: Detailed profiles of all first-team, reserves, and U18 players.
+- **Match Results & Fixtures**: Follow the club's performance throughout the season.
+- **League Standings**: Track Garuda Nusantara's position in the Eredivisie and other competitions.
+- **Club History & Vision**: Learn about the club’s origins, philosophy, and goals.
+- **Media & Highlights**: Latest news, match reports, and key moments from the season.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technologies Used
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- **Frontend**: HTML, CSS, JavaScript
+- **Deployment**: Vercel
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Contact
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+For inquiries or feedback, feel free to reach out to **mbuyangd@student.ubc.ca**.
